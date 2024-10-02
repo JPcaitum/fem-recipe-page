@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: "Outfit";
+}
+
+p {
+    font-size: 16px;
+}
+
+main {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+}
+
+
+section {   
+    width: 38vw;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    padding-bottom: 30px;
+}
+
+
+.image-container {
+    display: block;
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 90%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.recipe-container {
+    margin:0 auto;
+    width: 90%;
+
+}
+
+h1 {
+    font-family: "Young Serif";
+    margin: 10px auto;
+    font-weight: 400;
+
+}
+
+.preptime {
+    width: 100%;
+    height: auto;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.prep-content {
+    padding: 15px;
+}
+
+.preplist > li {
+    margin:10px 30px;
+}
+
+.preplist > li::marker {
+    color:hsl(332, 51%, 32%);
+}
+
+.prep-title {
+    color:hsl(332, 51%, 32%);
+}
+
+.ingredients {
+  
+    padding-bottom: 15px;
+    border-bottom:1px solid hsl(14, 45%, 36%);
+}
+
+.ingredients-list > li {
+    margin: 15px 20px;
+}
+
+.ingredients-list > li::marker {
+    color:hsl(14, 45%, 36%);
+}
+
+h2 {
+    font-family: "Young serif";
+    color:hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+
+.instructions {
+    padding-top:15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid hsl(14, 45%, 36%);
+}
+
+.ordered-list > li {
+    margin: 15px 20px;
+}
+
+.ordered-list > li::marker {
+    color:hsl(14, 45%, 36%);
+
+}
+
+.nutrition {
+    padding-top: 15px;
+}
+
+.nutrition > p {
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+.grid-nutrition {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-item {
+    padding: 10px;
+    
+}
+
+.grid-item > strong {
+    color: hsl(14, 45%, 36%);
+}
+
+.grid-item:nth-child(-n+6) {
+    border-bottom: 1px solid hsl(14, 45%, 36%);
+    margin-left: -2px;
+}
